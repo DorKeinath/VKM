@@ -24,4 +24,4 @@ Skizze, Nullstellen betrachten
 
 ## EA: Beipiel 2
 
-$$ (x-3)(x-2)(x^4+2) \geq 0 $$
+$$ (x-3)(x-2)(x^4+2) > 0 $$
