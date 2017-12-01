@@ -16,3 +16,11 @@ $$ x^3 - 9x \le x^3 + x^2- 5x + 2 $$
 2. Fallunterscheidung ("oder").
 
 > In zwei Fällen ist ein Produkt $$ \geq 0 $$ !?
+
+
+#### Graphisch
+
+Skizze, Nullstellen betrachten
+
+
+## EA: Beispiel 2
