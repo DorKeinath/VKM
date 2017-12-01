@@ -14,3 +14,5 @@ $$ x^3 - 9x \le x^3 + x^2- 5x + 2 $$
 
 1. $$ P(x) = x^2 + 4x + 2 $$ in Linearfaktoren zerlegen.
 2. Fallunterscheidung ("oder").
+
+> In zwei Fällen ist ein Produkt $$ \geq 0 $$ !?
