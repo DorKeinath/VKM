@@ -22,6 +22,6 @@ $$ x^3 - 9x \le x^3 + x^2- 5x + 2 $$
 Skizze, Nullstellen betrachten
 
 
-## EA: Beipiel 2
+## EA: Beispiel 2
 
-$$ (x-3)(x-2)(x^4+2) > 0 $$
+<!-- $$ (x-3)(x-2)(x^4+2) > 0 $$ -->
