@@ -4,3 +4,4 @@
 * [Griechisches Alphabet](griechisches_alphabet.md)
 * [Vollständige Induktion](vollstaendige_induktion.md)
 * [Polynomgleichungen](polynomgleichungen.md)
+* [Polynomungleichungen](polynomungleichungen.md)
