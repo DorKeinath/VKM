@@ -1,0 +1,9 @@
+.loesung{
+display: none;
+margin-bottom: 20px;
+}
+.aufgabe:hover .loesung{
+display : block;
+color: blue;
+margin-bottom: 20px;
+}
