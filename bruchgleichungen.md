@@ -26,10 +26,18 @@ Wir verwenden (ungeschickterweise) als Hauptnenner $$ (x+1)(x-1)(x^2-1) $$ .
 
 #### Bemerkung
 
-Das Quadrieren ist keine Äquivalenzumformung.
-$$ -2 = 2  \Rightarrow \mathbb{L} = \{ \} $$
+Eine Probe ist unbedingt nötig, da das Quadrieren keine Äquivalenzumformung ist.
 
-> Welche Lösungsmenge hat die quadrierte Gleichung?
+Dass das Quadrieren keine Äquivalenzumformung ist, kann man sich an verschiedenen Beispielen klar machen, z.B.:
+
+1) Klar ist: $$ -2 = 2  \Rightarrow \mathbb{L} = \{ \} $$, aber
+
+> welche Lösungsmenge hat die quadrierte Gleichung?
+
+2) Man sieht das auch daran, dass bei $$ x = 4 \Rightarrow x^2 = 16  $$ die Umkehrung wegen der zusätzlichen Lösung $$ x = -4 $$ nicht gilt.
+
+3) Oder auch an $$ x^2 = -1 \stackrel{()^2}\Rightarrow x^4 = 1 $$.
+
 
 ### Verfahren
 
