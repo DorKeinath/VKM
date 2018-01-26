@@ -79,9 +79,13 @@ Beim ersten Fall ergibt sich $$ x \geq \frac{5}{3} $$ was zur ersten Teillösung
 ### Rechnung ohne Fallunterscheidung
 
 $$ |5x+2| < 3 $$
+
 $$ \Leftrightarrow -3 < 5x +2 < 3 $$
+
 $$ \Leftrightarrow -5 < 5x < 1 $$
+
 $$ \Leftrightarrow -1 < x < \frac{1}{5}  $$
+
 $$ \Rightarrow \mathbb{L} = (-1; \frac{1}{5} ) $$
 
 
