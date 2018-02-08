@@ -3,8 +3,11 @@
 * [Zertifikatsklausur](zertifikatsklausur.md)
 * [Griechisches Alphabet](griechisches_alphabet.md)
 * [Vollständige Induktion](vollstaendige_induktion.md)
-* [Polynomgleichungen](polynomgleichungen.md)
-* [Polynomungleichungen](polynomungleichungen.md)
-* [Bruch(un)gleichungen](bruchgleichungen.md)
-* [Wurzelgleichungen](wurzelgleichungen.md)
-* [Betrags(un)gleichungen](betragsgleichungen.md)
+* Lösen von (Un-)Gleichungen
+    * [Polynomgleichungen](polynomgleichungen.md)
+    * [Polynomungleichungen](polynomungleichungen.md)
+    * [Bruch(un)gleichungen](bruchgleichungen.md)
+    * [Wurzelgleichungen](wurzelgleichungen.md)
+    * [Betrags(un)gleichungen](betragsgleichungen.md)
+* Folgen und Reihen
+    + [Folgenglieder darstellen](folgenglieder.md)

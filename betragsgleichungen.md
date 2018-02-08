@@ -93,6 +93,8 @@ $$ \Rightarrow \mathbb{L} = (-1; \frac{1}{5} ) $$
 
 ### $$ |x| + 2|y| \geq 4 $$
 
+> Finde eine Lösung. Woraus besteht jede Lösung? Und wie kann man sie veranschaulichen?
+
 Fall 1: $$ x,y \geq 0 $$. Hier ergibt sich $$ y \geq - \frac{1}{2} x + 2 $$.
 
 Beim Markieren der Lösungen müssen alle drei Gleichungen erfüllt sein, also liegen sie rechts der y-Achse, oberhalb der x-Achse und oberhalb der Geraden.
@@ -102,5 +104,5 @@ Bei den anderen Fällen geht man analog vor.
 [Lösung](https://www.wolframalpha.com/input/?i=%7Cx%7C+%2B+2%7Cy%7C%3E%3D+4)
 
 ### Übungen
-* $$ |2x+1| + |y-1|<= 5 $$ [Lösung](https://www.wolframalpha.com/input/?i=%7C2x%2B1%7C+%2B+%7Cy-1%7C%3C%3D+5)
-* $$ |x^2| + |y|<= 5 $$ [Lösung](https://www.wolframalpha.com/input/?i=%7Cx%5E2%7C+%2B+%7Cy%7C%3C%3D+5)
+* $$ |2x+1| + |y-1| \leq 5 $$ [Lösung](https://www.wolframalpha.com/input/?i=%7C2x%2B1%7C+%2B+%7Cy-1%7C%3C%3D+5)
+* $$ |x^2| + |y| \leq 5 $$ [Lösung](https://www.wolframalpha.com/input/?i=%7Cx%5E2%7C+%2B+%7Cy%7C%3C%3D+5)
