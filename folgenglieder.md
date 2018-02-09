@@ -56,6 +56,7 @@ $$ a_n = (1+\frac{1}{n} )^n $$
 $$ a_n = \frac{n}{\sqrt[n]{n!}}  $$
 
 $$ a_n = \frac{n}{2n+1} + \sqrt[n]{n} $$
+
 $$ a_n = \frac{3n^2 + n + 2}{4n^2+6}  $$
 
 ### Aufgabe 2
