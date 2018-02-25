@@ -1,0 +1,3 @@
+# Die geometrische Folge
+
+## Zinseszinsfolge

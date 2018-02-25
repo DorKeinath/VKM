@@ -32,32 +32,34 @@ Ist die Differenz zwischen zwei aufeinander folgenden Gliedern konstant, spricht
 Ist der Quotient zwischen zwei aufeinander folgenden Gliedern konstant, spricht man von einer **geometrischen** Folge.
 
 ## Übungen mit Python
-
 ### Aufgabe 1
-Berechne die Folgenglieder (sofern das endlicher Zeit möglich ist) für $$ n=0,1,2,3,4,5,10, 100, 1000, 100000, 100001 $$ (die zu zeitintensiven kannst du überspringen).
+Berechne die Folgenglieder (sofern das in endlicher Zeit möglich ist) für $$ n=0,1,2,3,4,5,10, 100, 1000, 100000, 100001 $$ (die zu zeitintensiven kannst du überspringen).
 
-$$ a_n = \frac{1}{n}  $$
+1. $$ a_n = \frac{1}{n}  $$
 
-$$ a_n = 2 ( \frac{1}{3} )^n  $$
+1. $$ a_n = 2 ( \frac{1}{3} )^n  $$
 
-$$ a_n = \frac{n}{2n+1}  $$
+1. $$ a_n = \frac{n}{2n+1}  $$
 
-$$ a_n = (-2)^n $$
+1. $$ a_n = (-2)^n $$
 
-$$ a_n = \sqrt{n+1}- \sqrt{n-1} $$
+1. <div class="aufgabe">$$ a_n = \sqrt{n+1}- \sqrt{n-1} $$<div class="loesung">Lösung mit Grenzwertsätzen: Zähler und Nenner mit Wurzel + Wurzel multiplizieren, ergibt, dass es eine Nullfolge ist. </div></div>
 
-$$ a_n = \sqrt[n]{n} $$
+1. <div class="aufgabe">$$ a_n = \sqrt[n]{n} $$<div class="loesung">Lösung: Geht gegen 1.</div></div>
 
-$$ a_n = \sqrt[n]{n!}  $$
+1. <div class="aufgabe">$$ a_n = \sqrt[n]{n!} $$<div class="loesung">Lösung: Geht gegen unendlich.</div></div>
 
-$$ a_n = (1+\frac{1}{n} )^n $$
-<div class="aufgabe">(Kommt dir das größte Folgenglied bekannt vor?)<div class="loesung">Der Grenzwert der Folge ist e. </div></div>
+1. <div class="aufgabe">$$ a_{n+1}=\frac{1}{2} (a_n + \frac{2}{a_n} )$$<div class="loesung">Lösung: Der Grenzwert ist $$\sqrt{2}$$. Dahinter steckt das Heron-Verfahren, weshalb man von der Newton-Heron-Folge spricht, siehe S. 79 Beispiel 4.22 </div></div>
 
-$$ a_n = \frac{n}{\sqrt[n]{n!}}  $$
+1. $$ a_n = (1+\frac{1}{n} )^n $$
 
-$$ a_n = \frac{n}{2n+1} + \sqrt[n]{n} $$
+1. $$ a_n = \frac{n}{\sqrt[n]{n!}}  $$
 
-$$ a_n = \frac{3n^2 + n + 2}{4n^2+6}  $$
+1. <div class="aufgabe">$$ a_n = \frac{n}{2n+1} + \sqrt[n]{n} $$ <div class="loesung">Lösung: Geht gegen $$0 ,5+1 $$ </div></div>
+
+1. $$ a_n = \frac{3n^2 + n + 2}{4n^2+6}  $$
+
+> <div class="aufgabe">Kommt dir das jeweils größte berechnete Folgenglied der Folgen 9. und 10. bekannt vor?<div class="loesung">Den Grenzwert der Folgen nennt man e. </div></div>
 
 ### Aufgabe 2
 Überprüfe deine Ergebnisse, indem du die Folge mit Python programmierst und damit deine Folgenglieder berechnen lässt. Dazu kannst du z.B. in eine Datei namens *folge.py* den folgenden Code schreiben und im Terminal mit `python folge.py` das Programm starten.
@@ -107,13 +109,7 @@ for n in range(10):
 Das `range(10)` ist dabei die Liste der natürlichen Zahlen von 0 bis 9, also $$ [0,1,2,3,4,5,6,7,8,9] $$.
 
 ### Aufgabe 3
-Erfinde einige Folgen, lasse einige Folgenglieder berechnen und drucke sie aus, damit die anderen heraus finden können, welche Folge du verwendet hast. Erfinde daher auch einfache Folgen und notiere sie für eine spätere Kontrolle.
-
-### Aufgabe 4
-Versuche, die Funktionsvorschriften der Folgen deiner Mitschüler herauszufinden.
-
-### Aufgabe 5
-Schreibe eine rekursive Version der Funktion $$ f(n)=3 * n $$.
+Schreibe eine rekursive Version der Funktion $$ f(n)=3 \cdot n $$.
 
 Zum Beispiel kann man die Folge $$ a_n = 2n $$ rekursiv als $$ a_n = a_{n-1} + 2 $$ und mit dem Anfangswert $$ a_0 = 0 $$  definieren. Als Python-Code sieht das z.B. so aus:
 
@@ -144,17 +140,19 @@ f = input('f ')
 print('Ergebnis: ' + str(fakultaet(f)))
 ```
 
-### Aufgabe 6
+### Aufgabe 4
 Versuche, die bisher verwendeten Folgen als rekursive Funktionen zu programmieren.
 
-### Aufgabe 7
+### Aufgabe 5
 Schreibe ein Programm für die Fibonacci-Folge.
 
-$$ a_n = a_{n-1} + a_{n-2} $$  
+$$ a_n = a_{n-1} + a_{n-2} $$
 $$ a_0=0 $$
 $$ a_1=1 $$
 
-### Aufgabe 8
-Falls du schon etwas programmieren kannst und ehrgeizig bist schreibe jeweils ein Programm für die Zahlen im Pascalschen Dreieck, und für die Folge der Primzahlen ([Sieb des Eratosthenes](https://de.wikipedia.org/wiki/Sieb_des_Eratosthenes)).
+[Lösungen](https://stackoverflow.com/questions/494594/how-to-write-the-fibonacci-sequence)
+
+### Aufgabe 6
+Falls du ehrgeizig bist, schreibe jeweils ein Programm für die Zahlen im Pascalschen Dreieck, und für die Folge der Primzahlen ([Sieb des Eratosthenes](https://de.wikipedia.org/wiki/Sieb_des_Eratosthenes)).
 
 [Lösungen](https://www.python-kurs.eu/python3_rekursive_funktionen.php)
