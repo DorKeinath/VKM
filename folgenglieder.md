@@ -49,8 +49,6 @@ Berechne die Folgenglieder (sofern das in endlicher Zeit möglich ist) für $$ n
 
 1. <div class="aufgabe">$$ a_n = \sqrt[n]{n!} $$<div class="loesung">Lösung: Geht gegen unendlich.</div></div>
 
-1. <div class="aufgabe">$$ a_{n+1}=\frac{1}{2} (a_n + \frac{2}{a_n} )$$<div class="loesung">Lösung: Der Grenzwert ist $$\sqrt{2}$$. Dahinter steckt das Heron-Verfahren, weshalb man von der Newton-Heron-Folge spricht, siehe S. 79 Beispiel 4.22 </div></div>
-
 1. $$ a_n = (1+\frac{1}{n} )^n $$
 
 1. $$ a_n = \frac{n}{\sqrt[n]{n!}}  $$

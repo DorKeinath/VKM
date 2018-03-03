@@ -12,3 +12,6 @@
 * Folgen und Reihen
     + [Folgenglieder darstellen](folgenglieder.md)
     + [Grenzwertsätze](grenzwertsaetze.md)
+    + [Monotonie](monotonie.md)
+    + [Beschränktheit](beschraenktheit.md)
+    + [Besondere Folgen](besondere_folgen.md)
