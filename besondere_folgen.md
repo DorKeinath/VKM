@@ -23,7 +23,9 @@ Dahinter steckt das Heron-Verfahren, weshalb man von der **Newton-Heron-Folge** 
 ## Geometrische Folge
 
 $$ a_n = q^n $$ nennt man **geometrische Folge**.
+
 Für $$ |q|<1 $$ ist es eine *Nullfolge*.
+
 Für $$ |q|>1 $$ ist sie *divergent*.
 
 Beweis mit *Weierstraß* (s.u., Glosauer S. 63 Bsp. 4.2, S. 64 Bsp. 4.5 und S. 66 Bsp. 4.7).
@@ -31,8 +33,11 @@ Beweis mit *Weierstraß* (s.u., Glosauer S. 63 Bsp. 4.2, S. 64 Bsp. 4.5 und S. 6
 ### Zinseszinsfolge
 
 $$ B_1 = B_0 + \frac{p}{100} \cdot B_0 = B_0(1+\frac{p}{100} )  $$
+
 $$ B_2 = B_1(1+\frac{p}{100} ) =B_0(1+\frac{p}{100} )^2 $$
+
 ...
+
 $$ B_n = B_0 (1+\frac{p}{100})^n $$
 
 Das ist eine geometrische Folge mit $$ q = 1+\frac{p}{100} $$
