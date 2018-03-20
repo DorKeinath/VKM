@@ -14,4 +14,5 @@
     + [Grenzwertsätze](grenzwertsaetze.md)
     + [Monotonie](monotonie.md)
     + [Beschränktheit](beschraenktheit.md)
+    + [Konvergenz](konvergenz.md)
     + [Besondere Folgen](besondere_folgen.md)
