@@ -16,3 +16,4 @@
     + [Beschränktheit](beschraenktheit.md)
     + [Konvergenz](konvergenz.md)
     + [Besondere Folgen](besondere_folgen.md)
+    + [Reihen](reihen.md)
