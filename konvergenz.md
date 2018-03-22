@@ -27,7 +27,7 @@ Cauchyfolgen konvergieren, und jede konvergente Folge ist eine Cauchyfolge. Bewe
 Weiß man von zwei Folgen $$ a_n, b_n $$, dass sie gegen einen Grenzwert $$ a $$ konvergieren, dann konvergiert auch die Folge $$ c_n $$ mit $$ a_n \leq c_n \leq b_n $$ gegen $$ a $$.
 
 Beispiel:
-$$ \fraq{1+n}{n^3+5} = \fraq{\fraq{1}{n}+1}{n^2+\fraq{5}{n}} \leq \fraq{\fraq{1}{n}+1}{n^2}= ... \leq \fraq{1}{n^2} \leq \fraq{1}{n}$$
+$$ \frac{1+n}{n^3+5} = \frac{\frac{1}{n}+1}{n^2+\frac{5}{n}} \leq \frac{\frac{1}{n}+1}{n^2}= ... \leq \frac{1}{n^2} \leq \frac{1}{n}$$
 
 ## Weierstraß
 Da ist die Definition von Konvergenz nach Weierstraß:
