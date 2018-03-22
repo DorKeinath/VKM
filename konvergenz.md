@@ -33,4 +33,4 @@ $$ \frac{1+n}{n^3+5} = \frac{\frac{1}{n}+1}{n^2+\frac{5}{n}} \leq \frac{\frac{1}
 Da ist die Definition von Konvergenz nach Weierstraß:
 
 Eine reelle Folge heißt konvergent, wenn es ein $$ a \in \mathbb{R} $$ und zu jedem $$ \epsilon > 0 $$ eine Folgenglied $$ n_{\epsilon} $$ gibt, ab dem für alle $$ n $$
-$$|a_n – a| < \espilon $$ ist.
+$$|a_n - a| < \epsilon $$ ist.
