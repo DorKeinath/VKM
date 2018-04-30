@@ -44,5 +44,5 @@ Zur Erläuterung: Bestimmen Sie das $$ n_{\epsilon} $$, ab dem bei der Folge $$ 
 ### Übungen zu Weierstraß
 
 1. $$ a_n = \frac{n-1}{n+1}  $$ konvergiert gegen 1. (S. 63, Bsp. 4.3)
-2. $$ a_n = \frac{1}{2}^n  $$ ist eine Nullfolge (S. 63, Bsp. 4.4)
+2. $$ a_n = \left( \frac{1}{2} \right)^n  $$ ist eine Nullfolge (S. 63, Bsp. 4.4)
 3. Die geometrische Folge als Nullfolge (s.u.)
