@@ -41,4 +41,4 @@ a) Berechne den Grenzwert der Reihe
 
 $$ s_n = \sum_{k=0}^{\infty}\left(-\frac{1}{2}\right)^k   $$
 
-b) Berechne $$ 0,999 \ldots $$  mittels Grenzzwertberechnung einer geometrischen Reihe. Tipp: $$ 0,999 \ldots = 9 \left( \frac{1}{10} \right) $$ [Lösung](https://de.wikipedia.org/wiki/0,999%E2%80%A6#Analytischer_Beweis)
+b) Berechne $$ 0,999 \ldots $$  mittels Grenzzwertberechnung einer geometrischen Reihe. Tipp: $$ 0,999 \ldots = 0,9 \cdot \left( 1 + \ldots \right) $$. [Lösung](https://de.wikipedia.org/wiki/0,999%E2%80%A6#Analytischer_Beweis)
