@@ -35,8 +35,10 @@ Für $$ |q|< 1 $$ haben wir also den schönen Grenzwert
 
 $$ s = \frac{1}{1-q}  $$
 
-## Übung
+## Übungen
 
-Berechne den Grenzwert der Reihe
+a) Berechne den Grenzwert der Reihe
 
 $$ s_n = \sum_{k=0}^{\infty}\left(-\frac{1}{2}\right)^k   $$
+
+b) Berechne $$ 0,999 \ldots $$  mittels Grenzzwertberechnung einer geometrischen Reihe. Tipp: $$ 0,999 \ldots = 9 \left( \frac{1}{10} \right) $$ 
