@@ -1,5 +1,12 @@
 # Besondere Folgen
 
+Die Schüler erarbeiten in Partnerarbeit eine Präsentation zu einem der folgenden Themen
+
+* Heron-Verfahren (inkl. [Veranschaulichung](https://de.wikipedia.org/wiki/Heron-Verfahren#Geometrische_Veranschaulichung_des_Heron-Verfahrens))
+* Newton-Verfahren [https://de.wikipedia.org/wiki/Newton-Verfahren](https://de.wikipedia.org/wiki/Newton-Verfahren)
+* Geometrische Folge (inkl. geometrisches Mittel)
+* Arithmetische Folge (inkl. arithmetisches Mittel) [https://de.wikipedia.org/wiki/Arithmetische_Folge](https://de.wikipedia.org/wiki/Arithmetische_Folge)
+
 ## Heron-Verfahren
 (Siehe Glosauer S. 79 Beispiel 4.22 )
 
@@ -49,8 +56,10 @@ Manchmal sieht man auch die Definition $$ a_n = a_0 \cdot q^n $$.
 
 Die rekursive Darstellung ist $$ a_{n+1} = a_n \cdot q $$
 
+## Harmonische Folge
 
-## Arithmetishe Folge
+
+## Arithmetische Folge
 
 ### Bemerkungen
 $$ a_{n+1} = a_n + d $$
