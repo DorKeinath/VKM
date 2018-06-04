@@ -2,7 +2,7 @@
 
 ## Berechnung mittels Teleskopsumme
 
-$$ s_n = \sum_{k=1}^{\infty} \frac{1}{k(k+1)}   $$
+$$ s_n = \displaystyle\sum_{k=1}^{\infty} \frac{1}{k(k+1)}   $$
 
 Formt man die Partialsummen unter der Idee der Teleskopsumme um, sieht man, dass man (durch $$ +k-k $$ im Zähler) die n-te Partialsumme umschreiben kann zu:
 
@@ -18,7 +18,7 @@ Also ist der Grenzwert der Reihe 1.
 Berechne die Grenzwerte der Reihe. Tipp: Binomische Formel.
 
 <div class="aufgabe">
-$$ s_n = \sum_{k=2}^{\infty} \frac{1}{k^2-1}   $$
+$$ s_n = \displaystyle\sum_{k=2}^{\infty} \frac{1}{k^2-1}   $$
 <div class="loesung">$$ \frac{1}{k^2-1} = \frac{1}{k-1} + \frac{1}{k+1}  $$ . $$ s = \frac{3}{4}  $$
  </div></div>
 
@@ -39,6 +39,6 @@ $$ s = \frac{1}{1-q}  $$
 
 a) Berechne den Grenzwert der Reihe
 
-$$ s_n = \sum_{k=0}^{\infty}\left(-\frac{1}{2}\right)^k   $$
+$$ s_n = \displaystyle\sum_{k=0}^{\infty}\left(-\frac{1}{2}\right)^k   $$
 
 b) Berechne $$ 0,999 \ldots $$  mittels Grenzzwertberechnung einer geometrischen Reihe. Tipp: $$ 0,999 \ldots = 0,9 \cdot \left( 1 + \ldots \right) $$. [Lösung](https://de.wikipedia.org/wiki/0,999%E2%80%A6#Analytischer_Beweis)

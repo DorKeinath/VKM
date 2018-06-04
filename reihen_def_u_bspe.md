@@ -3,13 +3,13 @@
 ## Definition
 Eine Reihe ist eine Folge, deren Glieder aus den Summen von Folgengliedern besteht. Das n-te Glied einer Reihe, also die Summe der ersten n Summanden nennt man auch n-te *Partialsumme*, sie sieht also so aus:
 
-$$ s_n = \sum_{k=1}^n a_k $$
+$$ s_n = \displaystyle\sum_{k=1}^n a_k $$
 
 Die Glieder einer Reihe sind also Partialsummen.
 
 Die unendliche Summe
 
-$$ \sum_{k=1}^{\infty} a_k $$
+$$ \displaystyle\sum_{k=1}^{\infty} a_k $$
 
 wird für zweierlei verwendet
 
@@ -20,11 +20,11 @@ wird für zweierlei verwendet
 
 ## Geometrische Reihe
 
-$$ s_n = \sum_{k=0}^{\infty} q^k  \quad , \; q \neq 1$$
+$$ s_n = \displaystyle\sum_{k=0}^{\infty} q^k  \quad , \; q \neq 1$$
 
 z.B.
 
-$$ s_n = \sum_{k=0}^{\infty} \frac{1}{2}^k = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \ldots $$
+$$ s_n = \sum_{k=0}^{\infty} \left(\frac{1}{2}\right)^k = 1 + \frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \ldots $$
 
 also
 $$ s_0 = 1, \quad s_1 = \frac{3}{2}, \; \ldots  $$
@@ -33,7 +33,7 @@ Diese geometrische Reihe konvertiert gegen 2 (d.i. die Lösung des Paradoxons vo
 
 Die Summe mit den $$ \ldots $$ deutet nur an, wie die Summanden der Partialsummen aussehen. Besser wäre es vielleicht, Kommas zu verwenden, aber das habe ich noch nie gesehen:
 
-$$ \sum_{k=0}^{\infty} \frac{1}{2}^k = \sum 1 , \frac{1}{2} , \frac{1}{4} , \frac{1}{8} , \ldots $$
+$$ \sum_{k=0}^{\infty} \left(\frac{1}{2}\right)^k = \sum 1 , \frac{1}{2} , \frac{1}{4} , \frac{1}{8} , \ldots $$
 
 Die geometrische Reihe
 
@@ -43,9 +43,13 @@ konvergiert nicht, sondern hat zwei Häufungspunkte: bei 0 und 1.
 
 Konvergenz liegt nur für $$ |q| <1 $$  vor. Es gilt dann
 
-$$  \sum_{k=0}^{\infty} q^k  = \frac{1}{1-q} $$.
+$$  \displaystyle\sum_{k=0}^{\infty} q^k  = \frac{1}{1-q} $$ (s.u.).
 
-Das beweist man mit der *geometrischen Summenformel* $$ \sum_{k=0}^{n} q^k = \frac{1-q^{n+1}}{1-q}  $$.
+Bekannt ist zudem die Identität
+
+$$ \displaystyle\sum_{k=0}^{n} q^k = \frac{1-q^{n+1}}{1-q}  $$,
+
+die man *geometrische Summenformel* nennt.
 
 ## Arithmetische Reihen
 
@@ -55,7 +59,7 @@ Das schöne ist bei ihnen, dass sich die Partialsummen direkt berechnen lassen, 
 
 Die *Gaußsche Summenformel*, auch *der kleine Gauß* genannt, ist eine Darstellung der n-ten Partialsumme der einfachsten arithmetischen Reihe:
 
-$$ \sum_{k=1}^{n} k = 1+2+3+ \ldots + n = \frac{n(n+1)}{2}  $$
+$$ \displaystyle\sum_{k=1}^{n} k = 1+2+3+ \ldots + n = \frac{n(n+1)}{2}  $$
 
 
 ### Übung
@@ -66,11 +70,11 @@ $$ s_n = \frac{\sum_{k=1}^{\infty} k}{n^2}  $$
 
 ## Harmonische Reihe
 
-$$ s_n = \sum_{k=1}^{\infty} \frac{1}{k}  $$
+$$ s_n = \displaystyle\sum_{k=1}^{\infty} \frac{1}{k}  $$
 
-Obwohl die harmonische Folge eine Nullfolge ist, divergiert die harmonische Reihe. Das sieht man, wenn man so nach unten abschätzt, dass sich immer $$ \frac{1}{2} $$ -Päckchen ergeben (siehe S. 85 Beispiel 4.25)
+Obwohl die harmonische Folge eine Nullfolge ist, divergiert die harmonische Reihe. Das sieht man, wenn man so nach unten abschätzt, dass sich immer $$ \frac{1}{2} $$ -Päckchen ergeben (siehe S. 85, Beispiel 4.25)
 
 ### Übung
-Zeige, dass auch $$ s_n = \sum_{k=1}^{\infty} \frac{1}{\sqrt{k}} $$ divergiert (S. 86, Aufgabe 4,28).
+Zeige, dass auch $$ s_n = \sum_{k=1}^{\infty} \frac{1}{\sqrt{k}} $$ divergiert (S. 86, Aufgabe 4.28).
 
 [Mehr zur harmonischen Reihe auf Wikipedia](https://de.wikipedia.org/wiki/Harmonische_Reihe)
